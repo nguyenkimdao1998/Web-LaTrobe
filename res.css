@@ -1,0 +1,28 @@
+@media (max-width: 768px){
+	.top{
+		padding: 0 12px;
+	}
+
+	.about-item {
+	    width: 100%;
+	}
+
+	.program-items{
+		width: 100%;
+		margin: 30px;
+	}
+
+	.feedback-item{
+		width: 100%;
+		margin: 30px;
+	}
+	.news-items{
+		width: 100%;
+		margin: 30px;
+	}
+
+	.footer-item{
+		width: 100%;
+		margin: 30px;
+	}
+}
