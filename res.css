@@ -1,6 +1,25 @@
-@media (max-width: 768px){
+
+@media (max-width: 1200px){
 	.top{
-		padding: 0 12px;
+		padding: 0 20px;
+	}
+
+	.header .banner h1{
+		font-size: 40px;
+	}
+
+	.header .banner p{
+		font-size: 30px;
+		color: var(--sub-color);
+		font-weight: lighter;
+		font-family: 'Roboto', sans-serif;
+	}
+}
+
+@media (max-width: 768px){
+
+	.top{
+		padding: 0 20px;
 	}
 
 	.about-item {
@@ -24,5 +43,26 @@
 	.footer-item{
 		width: 100%;
 		margin: 30px;
+	}
+}
+
+@media (max-width: 375px){
+	*{
+		font-size: 20px;
+	}
+
+	.program-items{
+		width: 100%;
+		margin: 5px 20px;
+	}
+
+	.section-title h2{
+		font-size: 30px;
+		color: var(--text-color);
+	}
+
+	.section-title{
+		width: 100%;
+		margin: 20px;
 	}
 }

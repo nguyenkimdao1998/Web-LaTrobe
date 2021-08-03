@@ -14,7 +14,7 @@
 	padding: 0;
 	outline: none;
 	box-sizing: border-box;
-	font-family: 'Roboto', sans-serif;;
+	font-family: 'Source Serif Pro', serif;
 }
 
 .btn{
@@ -26,6 +26,7 @@
 	cursor: pointer;
 	transition: all 0.3s ease;
 	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
 }
 
 .btn:hover{
@@ -224,12 +225,14 @@ a{
 	font-size: 60px;
 	color: var(--sub-color);
 	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
 }
 
 .header .banner p{
 	font-size: 50px;
 	color: var(--sub-color);
 	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
 }
 
 .banner-btn{
@@ -266,7 +269,7 @@ a{
 	font-size: 18px;
 	text-align: justify;
 	color: var(--text-color);
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .about .about-item img{
@@ -288,12 +291,13 @@ a{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	color: var(--main-color);
+	color: var(--text-color);
 	font-weight: 900;
 	font-size: 30px;
 	transform: translate(-50%,-50%);
 	width: 330px;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
 
 .about-item-img::before{
@@ -360,11 +364,12 @@ a{
 .program-item .detail h3{
 	color: var(--text-color);
 	transition: all 0.3s ease;
+	font-family: 'Roboto', sans-serif;
 }
 
 .program-item .detail p{
 	color: var(--text-color);
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Roboto', sans-serif;
 	margin-top: 50px;
 	cursor: pointer;
 }
@@ -395,7 +400,7 @@ a{
 
 .feedback-item span{
 	color: var(--text-color);
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 .feedback-item h2{
@@ -408,7 +413,7 @@ a{
 	color: var(--text-color);
 	font-size: 18px;
 	margin: 20px 0;
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: justify;
 }
 
@@ -428,13 +433,14 @@ a{
 
 .news{
 	background-color: var(--bg-color);
-	height: 780px;
 }
 
 .news-items{
 	padding: 15px;
 	width: calc(100%/3);
 	position: relative;
+	top: 5px;
+	padding-bottom: 50px;
 }
 
 .news-items img{
@@ -454,7 +460,7 @@ a{
 	padding: 15px 0;
 	right: 30px;
 	left: 30px;
-	bottom: 0;
+	bottom: 50px;
 	background-color: var(--main-color);
 	text-align: center;
 	border-radius: 10px;
@@ -466,6 +472,7 @@ a{
 .news-items-text h3{
 	color: var(--text-color);
 	padding: 15px;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Footer */
