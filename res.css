@@ -1,9 +1,5 @@
 
 @media (max-width: 1200px){
-	.top{
-		padding: 0 20px;
-	}
-
 	.header .banner h1{
 		font-size: 40px;
 	}
@@ -18,8 +14,12 @@
 
 @media (max-width: 768px){
 
-	.top{
-		padding: 0 20px;
+	.section-pading {
+	    padding: 30px 0;
+	}
+
+	.row{
+		margin: 0 30px;
 	}
 
 	.about-item {
@@ -28,27 +28,31 @@
 
 	.program-items{
 		width: 100%;
-		margin: 30px;
+		margin: 10px;
 	}
 
 	.feedback-item{
 		width: 100%;
-		margin: 30px;
+		margin: 10px;
 	}
 	.news-items{
 		width: 100%;
-		margin: 30px;
+		margin: 10px;
 	}
 
 	.footer-item{
 		width: 100%;
-		margin: 30px;
+		margin: 10px;
 	}
 }
 
 @media (max-width: 375px){
 	*{
 		font-size: 20px;
+	}
+
+	.row{
+		margin: 0 20px;
 	}
 
 	.program-items{
