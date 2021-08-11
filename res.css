@@ -144,4 +144,13 @@
 	.footer-copyright {
 		font-size: 12px;
 	}
+
+	.menu-items{
+		padding: 60px 30px;
+		width: 300px;
+	}
+
+	.menu-items a{
+		font-size: 18px;
+	}
 }
