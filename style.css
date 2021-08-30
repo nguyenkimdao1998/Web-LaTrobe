@@ -6,7 +6,7 @@
 	--main-color: #211F38;
 	--sub-color:  #B61919;
 	--text-color: #FFFFFF;
-	--bg-color: #162447;
+	--bg-color: #F3F3F3;
 	--title-color: #E22333;
 }
 
@@ -252,15 +252,14 @@ a{
 	display: block;
 	color: var(--main-color);
 	font-size: 30px;
-	font-weight: lighter;
+	font-weight: bold;
 }
 
 .sub-title h2::before{
 	content: attr(data-title);
 	display: block;
-	color: var(--text-color);
 	font-size: 30px;
-	font-weight: lighter;
+	font-weight: bold;
 }
 
 
@@ -341,8 +340,8 @@ a{
 	position: absolute;
 	left: 0px;
 	right: 30px;
-	bottom: -10px;
-	border: 1px solid var(--main-color);
+	bottom: -13px;
+	border: 0.5px solid #787878;
 }
 
 
@@ -362,13 +361,13 @@ a{
 
 
 .program-item .detail h3{
-	color: var(--text-color);
+	color: var(--main-color);
 	transition: all 0.3s ease;
 	font-family: 'Roboto', sans-serif;
 }
 
 .program-item .detail p{
-	color: var(--text-color);
+	color: var(--title-color);
 	font-family: 'Roboto', sans-serif;
 	margin-top: 50px;
 	cursor: pointer;
@@ -389,14 +388,14 @@ a{
 .feedback-item{
 	width: calc(100%/3 - 30px);
 	margin: 0 15px;
-	border: 1px solid var(--bg-color);
+	border: 1px solid #620A0A;
 	padding: 15px;
 	border-radius: 10px;
-	background-color: var(--bg-color);
+	background-color: var(--sub-color);
 }
 
 .feedback-item:hover img{
-	border: 4px solid var(--sub-color);
+	border: 4px solid var(--text-color);
 }
 
 .feedback-item span{
@@ -452,7 +451,7 @@ a{
 }
 
 .news-items:hover .news-items-text{
-	background-color: var(--sub-color);
+	background-color: var(--main-color);
 	transform: translateY(20px);
 }
 
@@ -463,7 +462,7 @@ a{
 	right: 30px;
 	left: 30px;
 	bottom: 50px;
-	background-color: #0F3460;
+	background-color: var(--sub-color);
 	text-align: center;
 	border-radius: 10px;
 	transform: translateY(50%);
@@ -476,6 +475,7 @@ a{
 	padding: 15px;
 	font-family: 'Roboto', sans-serif;
 }
+
 
 /* Footer */
 
@@ -496,13 +496,13 @@ a{
 }
 
 .footer h2{
-	color: var(--bg-color);
+	color: var(--main-color);
 	font-size: 25px;
 }
 
 .footer p{
 	margin: 20px 0;
-	color: var(--bg-color);
+	color: var(--main-color);
 	font-size: 18px;
 	line-height: 30px;
 	font-family: 'Source Serif Pro', serif;
@@ -512,7 +512,7 @@ a{
 .footer-copyright{
 	text-align: center;
 	padding: 50px 0 12px;
-	color: var(--bg-color);
-	border-top: 1px solid var(--bg-color);
+	color: var(--main-color);
+	border-top: 1px solid var(--main-color);
 	margin-top: 20px;
 }
